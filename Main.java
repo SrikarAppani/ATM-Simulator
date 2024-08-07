@@ -7,7 +7,7 @@ public class Main
     {
         try
         {
-            Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/ATM","root","Srikar@26");
+            Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/ATM","root","root");
             new LoginPage(c);
         }
         catch(Exception ex)
